@@ -9,7 +9,6 @@ class AddTask extends StatefulWidget {
   @override
   State<AddTask> createState() => _AddTaskState();
 }
-
 class _AddTaskState extends State<AddTask> {
   final TextEditingController nameController = TextEditingController();
 

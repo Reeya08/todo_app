@@ -4,7 +4,8 @@ import 'package:to_do_app/models/task.dart';
 import 'package:to_do_app/presentation/services/tasks.dart';
 
 class DeleteTask extends StatefulWidget {
-  const DeleteTask({super.key, required TaskModel taskModel})
+  const DeleteTask({super.key,
+  required TaskModel taskModel})
       : _taskModel = taskModel;
 
   final TaskModel _taskModel;
